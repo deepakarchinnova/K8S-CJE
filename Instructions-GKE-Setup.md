@@ -18,7 +18,7 @@ ZONES=$(gcloud compute zones list \
 
 echo $ZONES
 
-MACHINE_TYPE=n1-standard-4
+MACHINE_TYPE=n1-standard-2
 
 gcloud container clusters \
     create devops24 \
